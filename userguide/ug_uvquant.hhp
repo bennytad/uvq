@@ -1,0 +1,34 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=ug_uvquant.chm
+Contents file=ug_uvquant.hhc
+Default Window=NewWindow
+Default topic=Title.htm
+Display compile notes=No
+Display compile progress=No
+Full-text search=Yes
+Language=0x1c09 English (South Africa)
+Title=UV Quant
+
+[WINDOWS]
+NewWindow="UV Quant","ug_uvquant.hhc",,,,,,,,0x420,,0x200e,[0,0,500,400],0x0,0x0,,0,0,0,0
+
+
+[FILES]
+alignment.htm
+BSSCDHTM.js
+cable connection.htm
+breath easier.htm
+collecting data.htm
+data acquistion.htm
+location.htm
+Overview.htm
+starting acquistion.htm
+starting software.htm
+verifying system.htm
+
+[ALIAS]
+Compatibility=1.1 or later
+
+[INFOTYPES]
+

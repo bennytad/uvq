@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/background
+END
+BackgroundInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/background/BackgroundInfo.cs
+END
+BackgroundInfo.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/background/BackgroundInfo.xsd
+END
+BackgroundManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/background/BackgroundManager.cs
+END

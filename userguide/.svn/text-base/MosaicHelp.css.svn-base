@@ -1,0 +1,146 @@
+
+ /* $MVD$:color("18","80ffff","MosaicLightYellow","1") */
+ /* $MVD$:fontset("Normal","Verdana","Arial") */
+ /* $MVD$:fontset("Heading","Arial Black") */
+ /* $MVD$:fontset("Monospace","Courier New") */
+ /* $MVD$:fontset("Arial","Arial") */
+ CITE.expandspot { font-style : normal;
+                   color : green;
+                   cursor: hand;}
+ .mvd-CITE-expandspot { font-style : normal;
+                        color : green;
+                        cursor: hand;}
+ DFN.collapsed { font-style : italic;
+                 font-weight : normal;
+                 display :               'none';
+                 color : red;}
+ .mvd-DFN-collapsed { font-style : italic;
+                      font-weight : normal;
+                      display :               'none';
+                      color : red;}
+ DFN.expanded { font-style : italic;
+                font-weight : normal;
+                color : red;}
+ .mvd-DFN-expanded { font-style : italic;
+                     font-weight : normal;
+                     color : red;}
+ EM.dropspot { color : green;
+               cursor: hand;}
+ .mvd-EM-dropspot { color : green;
+                    cursor: hand;}
+ P { font-family : "Verdana", "Arial";
+     font-size : 9.0pt;
+     list-style-type : square;
+     color : black;}
+ .mvd-P { font-family : "Verdana", "Arial";
+          font-size : 9.0pt;
+          list-style-type : square;
+          color : black;}
+ H1 { font-family : "Arial Black";
+      font-weight : normal;
+      font-size : 14.0pt;
+      color : navy;
+      border-bottom : solid teal 1.0pt;}
+ .mvd-H1 { font-family : "Arial Black";
+           font-weight : normal;
+           font-size : 14.0pt;
+           color : navy;}
+ PRE { font-family : "Courier New";
+       font-size : 9.0pt;
+       color : black;}
+ .mvd-PRE { font-family : "Courier New";
+            font-size : 9.0pt;
+            color : black;}
+ H2 { font-family : "Arial";
+      font-weight : bold;
+      font-size : 12.0pt;
+      list-style-type : square;
+      color : navy;}
+ .mvd-H2 { font-family : "Arial";
+           font-weight : bold;
+           font-size : 12.0pt;
+           list-style-type : square;
+           color : navy;}
+ H3 { font-family : "Arial";
+      font-weight : bold;
+      font-size : 12.0pt;
+      list-style-type : square;
+      color : teal;}
+ .mvd-H3 { font-family : "Arial";
+           font-weight : bold;
+           font-size : 12.0pt;
+           list-style-type : square;
+           color : teal;}
+ H4 { font-family : "Arial";
+      font-weight : bold;
+      font-size : 12.0pt;
+      list-style-type : square;
+      color : purple;}
+ .mvd-H4 { font-family : "Arial";
+           font-weight : bold;
+           font-size : 12.0pt;
+           list-style-type : square;
+           color : purple;}
+ H5 { font-family : "Arial";
+      font-weight : bold;
+      font-size : 12.0pt;
+      list-style-type : square;
+      color : black;}
+ .mvd-H5 { font-family : "Arial";
+           font-weight : bold;
+           font-size : 12.0pt;
+           list-style-type : square;
+           color : black;}
+ H6 { font-family : "Verdana", "Arial";
+      font-weight : bold;
+      font-size : 10.0pt;
+      list-style-type : square;
+      color : black;}
+ .mvd-H6 { font-family : "Verdana", "Arial";
+           font-weight : bold;
+           font-size : 10.0pt;
+           list-style-type : square;
+           color : black;}
+ P.Highlight { background-color : #FFFF80;
+               list-style-type : square;
+               color : navy;}
+ .mvd-P-Highlight { background-color : #FFFF80;
+                    list-style-type : square;
+                    color : navy;}
+ A:active { text-decoration :underline;
+            color : red;}
+ A:visited { text-decoration :underline;
+             color : purple;}
+ A:link { text-decoration :underline;
+          color : blue;}
+ BODY { font-family : "Verdana", "Arial";
+        font-size : 9.0pt;
+        background-color : white;
+        list-style-type : square;
+        color : black;}
+ .mvd-BODY { font-family : "Verdana", "Arial";
+             font-size : 9.0pt;
+             background-color : white;
+             list-style-type : square;
+             color : black;}
+ 
+ CITE.glossterm { font-style : normal;
+		color : maroon;
+		cursor : hand;}
+ .mvd-CITE-glossterm { font-style : normal;
+		color : maroon;
+		cursor : hand;}
+ DFN.glosscollapsed { font-style : italic;
+		font-weight : normal;
+		display : 'none';
+		color : blue;}
+ .mvd-DFN-glosscollapsed { font-style : italic;
+		font-weight : normal;
+		display : 'none';
+		color : blue;}
+ DFN.glossexpanded { font-style : italic;
+		font-weight : normal;
+		color : blue;}
+ .mvd-DFN-glossexpanded { font-style : italic;
+		font-weight : normal;
+		color : blue;}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/Install%20Script/NSISIncludes
+END
+DotNetVer.nsh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/Install%20Script/NSISIncludes/DotNetVer.nsh
+END
+TestDotNetVer.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/Install%20Script/NSISIncludes/TestDotNetVer.nsi
+END
+EnvVarUpdate.nsh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/REPO/!svn/ver/20/trunk/ShellUVQuantSuite/Install%20Script/NSISIncludes/EnvVarUpdate.nsh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/REPO/!svn/ver/21/trunk/ShellUVQuantSuite/Install%20Script/NSISIncludes/readme.txt
+END
