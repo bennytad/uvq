@@ -12,7 +12,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "UV Quant Suite"
-!define PRODUCT_VERSION "4.0"
+!define PRODUCT_VERSION "4.1"
 !define PRODUCT_PUBLISHER "Argos Scientific Inc"
 !define PRODUCT_WEB_SITE "http://www.argos-sci.com"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\UV Quant.exe"
@@ -87,11 +87,9 @@ Section "MainSection" SEC01
   
   File ".\zedgraph\ZedGraph.xml"
   File ".\zedgraph\ZedGraph.dll"
-  File "..\bin\Release\UV Quant.application"
   File "..\bin\Release\UV Quant.exe"
   File "..\bin\Release\UV Quant.exe.config"
-  File "..\bin\Release\UV Quant.exe.manifest"
-  File "..\bin\Release\UV Quant.vshost.application"
+  File "..\UVQuant.manifest"
   File "..\bin\Release\UV Quant.vshost.exe"
   File "..\bin\Release\UV Quant.vshost.exe.config"
   File "..\bin\Release\UV Quant.vshost.exe.manifest"
@@ -99,7 +97,7 @@ Section "MainSection" SEC01
   File "..\images\argos_logo.JPG"
   File "..\images\argos_logo_small_running.jpg"
   File "..\images\green_circle.gif"
-  File "..\images\red_circle.gif"
+  File "..\images\red_circle.gif"  
   File "..\images\yellow_circle.gif"
   File "..\images\argos_logo_small.JPG"
   File "..\userguide\ug_uvquant.chm"
@@ -115,7 +113,6 @@ Section "MainSection" SEC01
   CreateDirectory "$SMPROGRAMS\UV Quant Suite"
   CreateShortCut "$SMPROGRAMS\UV Quant Suite\UV Quant Suite.lnk" "$INSTDIR\UV Quant.exe"
   CreateShortCut "$DESKTOP\UV Quant Suite.lnk" "$INSTDIR\UV Quant.exe"
-  File "..\bin\Release\UV Quant.application"
   SetOutPath "$SYSDIR"
   File "Cerex_mn.dll"
   File "bwtekusb.dll"

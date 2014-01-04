@@ -28,7 +28,7 @@
     </UpgradeBackupLocation>
     <ManifestCertificateThumbprint>953843C784424F1D872A32B5DBAF9D512597BA3B</ManifestCertificateThumbprint>
     <ManifestKeyFile>UV Quant Reprocessor_TemporaryKey.pfx</ManifestKeyFile>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
     <SignManifests>true</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -124,8 +124,12 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
+    <ApplicationManifest>UVQuant.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -456,6 +460,7 @@
       <DependentUpon>wizard.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="UVQuant.manifest" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config">
